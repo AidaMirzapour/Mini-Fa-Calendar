@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Nastaliq;
+  src: url(font/IranNastaliq.ttf) format("truetype");
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: #00aaa0;
+  font-family: "Nastaliq";
+}
+
+.container {
+  background-color: white;
+  width: 400px;
+  text-align: center;
+  border-radius: 13px;
+  box-shadow: 0px 5px 4px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.month {
+  background-color: #d55b3e;
+  margin: 0;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 0;
+  color: white;
+}
+
+.day-name {
+  color: rgba(63, 63, 63, 0.842);
+  font-size: 30px;
+  margin-bottom: -30px;
+  margin-top: 0;
+}
+
+.day-number {
+  font-size: 80px;
+  margin: 0;
+  font-weight: bolder;
+  color: #d55b3e;
+}
+
+.year {
+  color: rgba(63, 63, 63, 0.842);
+  font-size: 20px;
+  margin-top: -40px;
+  margin-bottom: 0;
+}
